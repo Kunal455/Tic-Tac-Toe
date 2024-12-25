@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 3, 56);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    height:100vh;
+    margin:0;
+    
+    
+}
+
+
+h1{
+    padding-top: 0px;
+    color: rgb(24, 224, 57);
+    padding-left: 450px;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+    margin: 0 auto;
+}
+.boxes{
+
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.box{
+    
+    height: 150px;
+    width:150px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: skyblue;
+    font-size: 70px;  
+    color:rgb(197, 26, 134);
+    
+}
+
+.msg{
+   
+    font-size: 30px;
+    color: brown;
+
+}
+
+.reset{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.rbtn{
+    padding-left: 715px;
+    padding-top: 0px;
+    border-radius: 10px;
+    margin:10px auto;
+    
+}
+
+.msgcont{
+    padding-left: 450px;
+    text-align: center;
+    padding-top: 10px;
+    margin:0 auto;
+}
+
+.newbtn{
+    height:40px;
+    width:70px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sp{
+    padding-top: 10px;
+    padding-left: 720px;
+}
+
+.hide{
+    display: none;
+    margin:10px auto;
+}
